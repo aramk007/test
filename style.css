@@ -1,0 +1,40 @@
+body {
+background-color: lightgray;
+margin: 0;
+height: 200vh;
+position: relative;
+}
+nav {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(161, 155, 155);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    
+}
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav > div {
+width: 50%;
+
+}
+#logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+main {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(85, 80, 80);
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;  
+    bottom: 0;
+}
